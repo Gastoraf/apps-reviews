@@ -1,0 +1,8 @@
+# Project exclude paths
+/apps/client/target/
+/apps/service/target/
+/authorization/client/target/
+/authorization/service/target/
+/reviews/client/target/
+/reviews/service/target/
+/workflow/target/

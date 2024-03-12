@@ -1,0 +1,27 @@
+### Добавить отзыв
+POST http://localhost:8083/reviews/add
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "appId": 1,
+  "rating": 2,
+  "content": "Очень плохо"
+}
+
+### Удалить отзыв
+POST http://localhost:8083/reviews/remove
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+### Удалить все отзывы пользователя
+POST http://localhost:8083/reviews/removeAll?userId=1
+
+### Отзывы пользователя
+GET http://localhost:8083/reviews?userId=1
+
+### Отзывы приложения
+GET http://localhost:8083/reviews?appId=1

@@ -1,0 +1,31 @@
+name: "apps-reviews"
+version: "3.9"
+
+services:
+
+  authorization-db:
+    image: mysql:latest
+    restart: always
+    ports:
+      - "33061:3306"
+    environment:
+      MYSQL_DATABASE: authorization
+      MYSQL_ROOT_PASSWORD: 1234
+
+  apps-db:
+    image: mysql:latest
+    restart: always
+    ports:
+      - "33062:3306"
+    environment:
+      MYSQL_DATABASE: apps
+      MYSQL_ROOT_PASSWORD: 1234
+
+  reviews-db:
+    image: mysql:latest
+    restart: always
+    ports:
+      - "33063:3306"
+    environment:
+      MYSQL_DATABASE: reviews
+      MYSQL_ROOT_PASSWORD: 1234

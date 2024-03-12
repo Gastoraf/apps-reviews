@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="[client] reviews" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" environment="&lt;No Environment&gt;" path="$PROJECT_DIR$/reviews/client/src/test/ReviewsClientTest.http" requestIdentifier="Добавить отзыв">
+    <method v="2" />
+  </configuration>
+</component>

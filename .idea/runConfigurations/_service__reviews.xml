@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="[service] reviews" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="service-reviews" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="ru.lab.reviews.service.ServerApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

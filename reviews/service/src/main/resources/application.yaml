@@ -1,0 +1,16 @@
+spring:
+
+  datasource:
+    url: jdbc:mysql://localhost:33063/reviews
+    username: root
+    password: 1234
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  address: 127.0.0.1
+  port: 8083
